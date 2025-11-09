@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hoja de Vida - Maribel Jackeline Amaguaña Reinoso</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <img src="assets/image.png" alt="Foto" class="foto-cv" />
+            <div class="titulo">
+                <h1>Maribel Jackeline Amaguaña Reinoso</h1>
+                <p class="rol">Analista de Sistemas Informáticos - Estudiante de Ing. en TI</p>
+                <p class="contacto">Quito, Ecuador · Tel: 098-309-0228 · <a href="mailto:maryjacke13@gmail.com">maryjacke13@gmail.com</a></p>
+            </div>
+        </div>
+
+        <nav aria-label="Navegación del CV" class="nav-cv">
+            <a href="#perfil">Perfil</a>
+            <a href="#formacion">Formación</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#cursos">Cursos</a>
+        </nav>
+    </header>
+
+    <main id="main" class="contenido" role="main">
+        <section id="perfil" class="card">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Profesional con actitud proactiva y fuerte enfoque en la obtención de resultados. 
+                Cuento con trayectoria comprobada en gestión de equipos, logística, compras, talento 
+                humano y ventas estratégicas. Mi capacidad para trabajar bajo presión, junto con mi 
+                compromiso, adaptabilidad, comunicación efectiva y liderazgo, contribuyen al 
+                fortalecimiento empresarial. Actualmente curso Ingeniería en Tecnologías de la 
+                Información y la Comunicación en la ESPE.
+            </p>
+        </section>
+
+        <section id="formacion" class="card collapsible">
+            <h2 class="card-title">
+                Formación Académica
+                <button class="toggle" data-target="formacion-list">▼</button>
+            </h2>
+            <div id="formacion-list" class="card-body">
+                <ul>
+                    <li><strong>Universidad ESPE:</strong> Ingeniería en Tecnologías de la Información y la Comunicación (6to semestre - modalidad virtual)</li>
+                    <li><strong>Secundaria:</strong> Bachiller en Ciencias Físico-Matemático - Colegio "María Angélica Idrobo"</li>
+                    <li><strong>Artesana:</strong> Estilismo y Belleza - Centro "Latinoamericana"</li>
+                    <li><strong>Idioma:</strong> Inglés Nivel B1 (ESPE)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experiencia" class="card collapsible">
+            <h2 class="card-title">
+                Experiencia Laboral
+                <button class="toggle" data-target="experiencia-list">▼</button>
+            </h2>
+            <div id="experiencia-list" class="card-body">
+                <article class="item-experiencia">
+                    <h3>Analista de Sistemas Informáticos - GRUVIPRO CIA. LTDA.</h3>
+                    <p class="fecha">Agosto 2025 - A la fecha</p>
+                    <p>Gestión de sistemas informáticos y soporte técnico empresarial.</p>
+                </article>
+
+                <article class="item-experiencia">
+                    <h3>Asistente de Compras - J&D Biotech / GINSBERG ECUADOR S.A.</h3>
+                    <p class="fecha">Agosto 2021 - Enero 2022 / Agosto 2024 - Noviembre 2024</p>
+                    <ul>
+                        <li>Evaluación y selección de proveedores mediante matrices de riesgo</li>
+                        <li>Gestión eficiente de adquisiciones para industria farmacéutica</li>
+                        <li>Fortalecimiento de relaciones comerciales y cadena de suministro</li>
+                    </ul>
+                </article>
+
+                <article class="item-experiencia">
+                    <h3>Jefa de Bodega / Cartera / RRHH - Plastilimpio S.A.</h3>
+                    <p class="fecha">Abril 2012 - Marzo 2021</p>
+                    <ul>
+                        <li>Coordinación de inventarios y optimización de almacenamiento</li>
+                        <li>Capacitación de personal y desarrollo de equipos</li>
+                        <li>Facturación electrónica y ventas en Compras Públicas</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades" class="card">
+            <h2>Habilidades</h2>
+            <div class="habilidades-grid">
+                <div>
+                    <h3>Técnicas</h3>
+                    <ul id="lista-tecnica">
+                        <li>Gestión de Sistemas</li>
+                        <li>Power BI</li>
+                        <li>ArcGIS</li>
+                        <li>Compras Públicas</li>
+                        <li>HTML/CSS/JS (básico)</li>
+                        <li>Facturación Electrónica</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Blandas</h3>
+                    <ul>
+                        <li>Liderazgo</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Comunicación efectiva</li>
+                        <li>Adaptabilidad</li>
+                        <li>Trabajo bajo presión</li>
+                        <li>Gestión de proyectos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="cursos" class="card collapsible">
+            <h2 class="card-title">
+                Cursos y Certificaciones
+                <button class="toggle" data-target="cursos-list">▼</button>
+            </h2>
+            <div id="cursos-list" class="card-body">
+                <ul>
+                    <li>Compras Públicas y Gestión Operativa SERCOP (120h - Coach Group)</li>
+                    <li>Acelerador de Carrera con Power BI (8h - Empowerdata Latam)</li>
+                    <li>Validación de Información de Redes Eléctricas en ArcGIS</li>
+                    <li>Fundamentos de Compras Públicas (Ministerio de Trabajo)</li>
+                    <li>Introduction to the Bionic Protheses (P4H Bionics)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <p>2025 - Maribel Jackeline Amaguaña Reinoso</p>
+        <div class="footer-actions">
+            <button id="btn-toggle-perfil">Ocultar Perfil</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
